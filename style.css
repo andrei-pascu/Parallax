@@ -1,0 +1,140 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    line-height: 1;
+    list-style: none;
+    height: 100%;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+#container-parralex {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  perspective: 100px;
+  overflow-x: hidden;
+  /*overflow-y: scroll;*/
+}
+
+#group1 {
+  height: 100em;
+  position: relative;
+  transform-style: preserve-3d;
+  font-size: 20px;
+}
+/*show off*/
+.last-layer {
+  transform: translateZ(-2000px) scale(61);
+  transform-origin: top;
+  height: 31em;
+  width: 100%;
+  position: absolute;
+  top: -1440em;
+  background-color: blue;
+  padding-top: 100px;
+  opacity: 0.8;
+}
+.third-layer {
+  transform: translateZ(-1050px) scale(15);
+  transform-origin: top;
+  height: 31em;
+  width: 100%;
+  position: absolute;
+  top: -200em;
+  background-color: red;
+  padding-top: 100px;
+  opacity: 0.8;
+}
+.second-layer {
+  transform: translateZ(-205px) scale(7);
+  transform-origin: top;
+  height: 31em;
+  width: 100%;
+  position: absolute;
+  top: 0em;
+  background: green;
+  padding-top: 100px;
+  opacity: 0.8;
+}
+.first-layer {
+ transform: translateZ(-85px) scale(4);
+ transform-origin: top;
+  position: absolute;
+  top: 30em;
+  height: 30em;
+  width: 100%;
+  background: #23819C;
+  opacity: 0.8;
+  padding-top: 100px;
+}
+/*copy the old ones*/
+
+
+
+/*.last-layer {
+  transform: translateZ(-2000px) scale(21.4);
+  transform-origin: top;
+  height: 1000px;
+  width: 99%;
+  position: absolute;
+  top: -480em;
+  background-image: url(images/0i.png);
+  background-size: cover;
+  padding-top: 100px;
+}
+.third-layer {
+  transform: translateZ(-1050px) scale(15);
+  transform-origin: top;
+  height: 25em;
+  width: 100%;
+  position: absolute;
+  top: -200em;
+  background-image: url(images/1i.png);
+  padding-top: 100px;
+}
+.second-layer {
+  transform: translateZ(-205px) scale(3.15);
+  transform-origin: top;
+  height: 31em;
+  width: 100%;
+  position: absolute;
+  top: -15em;
+  background-image: url(images/5i.png);
+  padding-top: 100px;
+}
+.first-layer {
+ transform: translateZ(-85px) scale(2.8);
+ transform-origin: top;
+  position: absolute;
+  top: -30em;
+  height: 36em;
+  width: 100%;
+  background-image: url(images/7i.png);
+  padding-top: 100px;
+  background-size: contain;
+}*/
+
+#container-main-content {
+
+    transform: translateZ(0px) scale(1);
+    transform-origin: top;
+     position: absolute;
+     top: 50em;
+     height: 200em;
+     width: 100%;
+     background: black;
+     opacity: 0.99;
+     padding-top: 100px;
+}
